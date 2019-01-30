@@ -7,3 +7,4 @@ If you have been following the tutorial, code for each and every lesson is added
 All files have been tested.
 
 If more files for  .\Practice\ should be added. They will be added very soon.
+to run the project : node app
