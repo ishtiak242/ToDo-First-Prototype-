@@ -3,8 +3,8 @@ var mongoose = require('mongoose');
 
 //database connect
 
-mongoose.connect('mongodb://ishtiak:hridoy242@ds113845.mlab.com:13845/todo');
-// mongoose.connect('mongodb://test:test@ds127375.mlab.com:27375/todo');
+// mongoose.connect('mongodb://ishtiak:hridoy242@ds113845.mlab.com:13845/todo');
+mongoose.connect('mongodb://test:test@ds127375.mlab.com:27375/todo');
 
 var todoSchema = new mongoose.Schema({
     item : String
